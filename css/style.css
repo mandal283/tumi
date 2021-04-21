@@ -1,0 +1,307 @@
+.*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/*header-strat*/
+
+ .nav-item{
+	margin-left: 10px;
+	font-size: 30px;
+/*background-color: red;*/
+text-transform: uppercase;
+padding:10px;
+border-radius: 10px;
+
+
+
+}
+.nav-item:hover{
+	background-color:green;
+}
+.menu-bar li a{
+	color:black;
+	margin-top: 10px;
+
+}
+
+.banner{
+	width: 100%;
+	height: 500px;
+	background:url("../images/mage.png") center top no-repeat;
+	background-size:cover;
+	padding:80px 0px;
+}
+.banner-inner{
+	text-align: center;
+	margin-top: 55px;
+
+}
+.banner-inner h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	color: white;
+}
+.banner-inner p {
+    font-size: 20px;
+    margin-top: 24px;
+    color:white;
+}
+.drive{
+	width:40%;
+	height: 2px;
+	margin:10px auto;
+	background-color:#157DEC;
+}
+.btn{
+	margin-top: 10px;
+	color:white;
+	border:2px solid #157DEC;
+
+	text-transform: uppercase;
+}
+.btn:hover{
+	background-color: #157DEC;
+}
+.icon-box{
+	margin-top: 50px;
+	margin-right: 20px;
+	color:#157DEC;
+}
+.suction{
+	width:100%;
+	background-color: #eee;
+	padding: 80px 0px;
+
+}
+.sec{
+	text-align: center;
+}
+.sec p{
+margin-top: 20px;
+}
+.service{
+	padding:80px 0px;
+
+}
+
+.ban{
+color:white;
+font-size: 30px;
+
+padding:30px 30px;
+background-color:#157DEC;
+
+}
+.ba{
+	color:white;
+font-size: 25px;
+padding:30px 30px;
+background-color:#157DEC;
+
+}
+.baa{
+color:white;
+font-size: 40px;
+padding:25px 35px;
+background-color:#157DEC;
+
+}
+
+
+.service-inner{
+	text-align: center;
+}
+.service-inner ul{
+	list-style: none;
+}
+.service-inner .service-pc{
+	margin-top: 20px;
+	font-size: 20px;
+
+	
+}
+.service-inner p{
+line-height: 20px;
+
+
+}
+
+
+.portpolio-section{
+	padding:80px;
+	width:100%;
+	background-color: #eee;
+}
+.port-head{
+	text-align: center;
+}
+.port-head p{
+	margin-top: 20px;
+
+}
+.lk{
+	padding-bottom: 10px;
+}
+
+}
+.port {
+	width: 100%;
+	height:300px;
+	background-color: red;
+/*	position: relative;*/
+	}
+.picture{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+}	
+.picture img{
+width: 100%;
+height: 100%;
+}
+.opore{
+
+	width:100%;
+	height:257px;
+	display: flex;
+/*	position: relative;*/
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	position: absolute;
+background-color:rgb(26, 156, 137, 0.5);
+
+}
+.opore img{
+	width: 30px;
+	height: 30px;
+/*	background-color: blue;*/
+	
+}
+/*.ma{
+	margin-left: 20px;
+}*/
+.coto{
+position: absolute;
+/*background-color: black;*/
+margin-top: 120px;
+margin-left: 140px;
+}
+.picture:hover .opore{
+	visibility: visible;
+}
+.mnu{
+	margin-top:20px;
+}
+.prom{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.contuc-from{
+	padding:80px 0px;
+	background-color: #0C090A;
+}
+
+.from-section{
+	width: 100%;
+	padding:80px 0px;
+	background:linear-gradient(black,black)
+}
+.from-ma{
+	text-align: center;
+}
+.ti{
+	width: 100%;
+
+
+}
+.man{
+	color:white;
+}
+ .from label{
+ 	display:block;
+ 	color:white;
+ 	font-size: 20px;
+ 	text-transform: uppercase;
+ 	font-weight: 700;
+ }
+.from input{
+	width:500px;
+	padding-left: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.from textarea{
+	width:500px;
+}
+
+
+.janu{
+display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	
+}
+
+.chek{
+	font-size:18px;
+	padding: 10px;
+	color:white;
+	
+	margin-left: 310px;
+/*	display: flex;*/
+
+}
+.nnn{
+
+	margin-right: 300px;
+	font-size: 25px;
+	padding:10px;
+
+}
+
+.foter-section{
+	padding:50px;
+	background-color:#157DEC;
+}
+.footer{
+	width:100%;
+
+}
+.footer-box{
+/*	background-color: pink;*/
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.footer-icon ul li{
+	display: inline-block;
+	/*background-color: red;*/
+	margin-left: 20px;
+	font-size: 30px;
+	padding:10px;
+
+}
+
